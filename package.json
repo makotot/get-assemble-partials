@@ -25,7 +25,6 @@
     "time-grunt": "^1.2.1"
   },
   "dependencies": {
-    "fs-utils": "^0.6.0",
-    "glob": "^5.0.14"
+    "fs-utils": "^0.6.0"
   }
 }
