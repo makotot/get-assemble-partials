@@ -6,7 +6,7 @@
 [![devDependencies](http://img.shields.io/david/dev/makotot/get-assemble-partials.svg?style=flat-square)](https://github.com/makotot/get-assemble-partials)
 [![License](http://img.shields.io/npm/l/get-assemble-partials.svg?style=flat-square)](https://github.com/makotot/get-assemble-partials)
 
-> Get assemble partial files
+> Get [assemble](http://assemble.io/) partial files
 
 
 ## Install
