@@ -21,7 +21,7 @@ module.exports = function (grunt) {
     assemble: {
       options: {
         layoutdir: '<%= path.src %>/layouts',
-        partials: ['<%= path.src %>/partials/*.hbs', '<%= path.src %>/sub-partials/*.hbs'],
+        partials: ['<%= path.src %>/partials/**/*.hbs'],
         plugins: ['./plugin.js']
       },
       all: {

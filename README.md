@@ -39,6 +39,36 @@ module.exports.options = {
 };
 ```
 
+## Options
+
+### excludes
+
+A list of glob pattern that you want to exclude.
+
+type: `array`
+
+```js
+var getPartials = require('get-assemble-partials');
+
+module.exports = function (params, cb) {
+
+  var excludes = ['./src/partials/excludes/*.hbs'];
+
+  getPartials(params, excludes, function (err, data) {
+    console.log(data);
+    // => [ 'src/partials/footer.hbs',
+            'src/partials/header.hbs',
+            'src/partials/nav.hbs',
+            ... ]
+    cb();
+  });
+};
+
+module.exports.options = {
+  stage: 'render:post:pages'
+};
+```
+
 
 ## License
 
